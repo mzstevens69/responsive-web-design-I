@@ -66,11 +66,14 @@ h1,h2,h3,h4,h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+body {
+    margin: 2%;
+    padding: 2%;
+}
 
 .container {
     margin: 1%;
-    margin-bottom: 15%;
+    
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -87,7 +90,7 @@ h1,h2,h3,h4,h5 {
 }
  .nav a {
     justify-content: space-between;
-    /* margin: 9%;    */
+    padding: 4%;
     text-decoration: none;
     color: gray;
     font-size: 20px; 
@@ -108,9 +111,10 @@ h1,h2,h3,h4,h5 {
 /* innovation on demand logo */
 .Iod {
     display: flex;
-    /* padding: 10%; */
+    padding-top: 15%;
+    padding-right: 4%;
     text-align: center;
-    font-size: 100px;
+    font-size: 90px;
 
 }
 
@@ -122,18 +126,18 @@ h1,h2,h3,h4,h5 {
     height: 10%;
     font-size: 22px;
 }
-
-.great .logo {
-    display: flex;
+.circle {
+    
     
 }
+/*  */
 
 /*features that wrap around middle picture*/
 .content {
     margin: 1%;
     border-top: 1px solid gray;
     display: flex;
-    height: 60%;
+    height: 41%;
     width: 100%;   
 }
 
@@ -141,22 +145,23 @@ h1,h2,h3,h4,h5 {
 
     width: 48%;
     /* margin: 2.5%;  */
-    font-size: 40px;
-    height: 80%;
+    font-size: 37px;
+    height: 60%;
 }
 
 .Features {
     width: 49%;
     /* margin: 2.5%; */
-    font-size: 40px;
-    height: 80%;
+    font-size: 37px;
+    height: 60%;
 }
 /* bottom text with 3 columns */
 
 .spv {
     display: flex; 
     width: 100%;   
-    border-bottom: 2px solid gray;   
+    border-bottom: 2px solid gray;
+    border-top: 4%;   
 }
 .Services {
     
@@ -386,7 +391,10 @@ hr {
         flex-direction: column;
         
         align-items: center;
-    } 
+    }
+    .Iod {
+        margin-bottom: 7%;
+    }
     .content {
         margin: 1%;
         border-top: 1px solid gray;
@@ -460,7 +468,7 @@ hr {
         text-align: center;
         border: 1px solid gray;
         width: 100%;
-        margin: 2%;
+        /* margin: 2%; */
     }
 
     .About {
