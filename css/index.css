@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    width: 100%;
 }
 
 html,
@@ -448,10 +449,12 @@ hr {
     }
     
 }
+/* MOBILE */
 @media (max-width: 500px) {
     body {
         margin: 0%;        
         height: 100%;
+        max-width: 100%;
     }
     .container {
         margin: 0%;
@@ -472,7 +475,9 @@ hr {
         width: 100%;
         /* margin: 2%; */
     }
-
+    .middle-img {
+        max-width: 100%;
+    }
     .About {
         width: 100%;
         display: inline-block;
@@ -490,11 +495,13 @@ hr {
     .content {
         display: inline-block;
         height: 20%;
+        max-width: 100%;
 
     }
     .spv {
         display: inline-block;
         height: 29%;
+
     }
     .Services {
         font-size: 13px;
