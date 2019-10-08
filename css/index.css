@@ -67,8 +67,8 @@ h1,h2,h3,h4,h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-    margin: 2%;
-    padding: 2%;
+    
+    padding: 3%;
 }
 
 .container {
@@ -87,10 +87,11 @@ body {
 }
 .nav {
     display: flex;
+   
 }
  .nav a {
-    justify-content: space-between;
-    padding: 4%;
+    
+    padding: 4.3%;
     text-decoration: none;
     color: gray;
     font-size: 20px; 
@@ -105,16 +106,17 @@ body {
 }
 .top-images {
     display: flex;
-    justify-content: space-evenly;
-  
+    /* justify-content: space-evenly; */
+    
 }
 /* innovation on demand logo */
 .Iod {
     display: flex;
     padding-top: 15%;
-    padding-right: 4%;
+    padding-right: 5%;
     text-align: center;
-    font-size: 90px;
+    font-size: 80px;
+   
 
 }
 
@@ -126,34 +128,32 @@ body {
     height: 10%;
     font-size: 22px;
 }
-.circle {
-    
-    
-}
+
 /*  */
 
 /*features that wrap around middle picture*/
 .content {
-    margin: 1%;
+    /* margin: 1%; */
     border-top: 1px solid gray;
+    margin-top: 5%;
     display: flex;
-    height: 41%;
+    height: 50%;
     width: 100%;   
 }
 
 .About {
 
-    width: 48%;
-    /* margin: 2.5%;  */
-    font-size: 37px;
-    height: 60%;
+    width: 49%;
+    margin: 2.5%; 
+    font-size: 35px;
+    height: 65%;
 }
 
 .Features {
     width: 49%;
-    /* margin: 2.5%; */
-    font-size: 37px;
-    height: 60%;
+    margin: 2.5%;
+    font-size: 35px;
+    height: 65%;
 }
 /* bottom text with 3 columns */
 
@@ -193,7 +193,8 @@ body {
 /*across page computer screen image*/
 .middle-img {
     width: 100%;
-    margin: 1%;   
+    margin: 1%; 
+      
 }
 
 /*this is where bottom 
@@ -223,37 +224,41 @@ address {
     font-size: 25px
 }
 
-/*Services page. start of second page*/
+/*---------SERVICES PAGE----------------      start of second page*/
 
 .container1 {
-
-    padding: 30px;
-
+   
+    width: 100%;  
+    margin: 1%;
 }
-
-header {
+.great {
+    
+}
+.great .logo {
+    
+    l
+    
+}  
+.top {
     display: flex;
-    justify-content: space-between;
-    margin: 40px;
-
+    
+    width: 100%;
+    border: 1px solid blue;
 }
-
 header .navtext a {
-
-    padding: 35px;
-    margin-top: 30px;
-    margin-left: 30px;
+   
+    border: 1px solid red;
+    text-align: center;
+    padding: 1%;
     text-decoration: none;
     color: gray;
     font-size: 25px;
 }
-
-.services-header-img {
-    width: 92%;
-    margin: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    height: 300px;
+/* top image */
+.container .serv-img {
+    width: 100%;  
+    margin: 5%;
+    padding: 2%; 
 
 }
 
@@ -265,10 +270,11 @@ header .navtext a {
 }
 
 .servtext {
-
-    height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 30%;
     font-size: 30px;
-    margin-left: 70px;
+    
 
 }
 
@@ -276,10 +282,9 @@ header .navtext a {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px;
-    /*border-bottom: 5px solid gray;*/
+    padding: 2%;    
     height: 1125px;
-    
+    border: 1px solid gray;
 }
 
 .group1 {
@@ -347,19 +352,7 @@ header .navtext a {
     margin-top: 50px;
 
 }
-/*.factpicwrap {
-    display: flex;
-}
 
-/*.factpic {
-    padding: 50px;
-    margin-right: 60px;
-    width: 45%;
-    height:                                 
-
-
-    /*justify-content: flex-end;
-} */
 .cc {
     text-align: center;
 }
@@ -392,8 +385,12 @@ hr {
         
         align-items: center;
     }
+    .top-images {
+        justify-content: center;
+    }
     .Iod {
         margin-bottom: 7%;
+        justify-content: center;
     }
     .content {
         margin: 1%;
@@ -461,7 +458,7 @@ hr {
         flex-direction: column;
         align-items: center;
         
-        width: 115%;
+        width: 120%;
     }
     .nav a {
         
