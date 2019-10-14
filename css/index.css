@@ -404,8 +404,9 @@ li {
         justify-content: center;
     }
     .Iod .button {
-        width: 25%;
+        font-size: 1.5rem;
         height: 12%;
+    
     }
     .content {
         margin: 4% 0;
@@ -468,10 +469,7 @@ li {
         height: 100%;
         max-width: 500px;
     }
-    .container {
 
-       
-    }
     .great {
         font-size: 1.2rem;
         justify-content;: center;
@@ -490,6 +488,11 @@ li {
         width: 100%;
    
     }
+    .Iod .button {
+        width: 60%;
+        height: 12%;
+        font-size: 1.5rem;
+    }
     .middle-img {
         max-width: 100%;
     }
@@ -498,6 +501,7 @@ li {
         display: inline-block;
         font-size: 1.6rem;
         height: 10%;
+        padding: 4% 0;
     }
     
     .Features {
@@ -505,6 +509,7 @@ li {
         width: 100%;
         font-size: 1.6rem;
         height: 10%;
+        padding: 4% 0;
       
     }
     .content {
@@ -520,17 +525,20 @@ li {
     }
     .Services {
         font-size: 1.6rem;
-        width: 100%;   
+        width: 100%; 
+        padding: 4% 0;  
     }
     
     .Product {
         font-size: 1.6rem;
         width: 100%;
+        padding: 4% 0;
     }
     
     .Vision {
         font-size: 1.6rem; 
-        width: 100%;    
+        width: 100%;
+        padding: 4% 0;    
     }
     address {
 
@@ -539,12 +547,14 @@ li {
     
     .copyright {
         font-size: 10px;
+        padding: 4% 0;
     
 
     }
     
     .contact {
-        font-size: 15px
+        font-size: 15px;
+        padding: 4% 0;
     }
 
 }
