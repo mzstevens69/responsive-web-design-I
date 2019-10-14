@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5 {
 }
  .nav a {
     
-    padding: 4.3%;
+    padding: 7% ;
     text-decoration: none;
     color: gray;
     font-size: 1.7rem; 
@@ -129,9 +129,9 @@ h1,h2,h3,h4,h5 {
     border: 1px solid;
     margin-left: 1%;
     border-radius: 4px;
-    width: 42%;
-    height: 10%;
-    font-size: 22px;
+    width: 47%;
+    height: 12%;
+    font-size: 1.6rem;
     background-color: aquamarine;
 }
 
@@ -150,14 +150,14 @@ h1,h2,h3,h4,h5 {
 .About {
 
     width: 49%;
-    margin: 2.5% 0 0 0%; 
+    padding: 4% 0;
     font-size: 1.8rem;
     height: 65%;
 }
 
 .Features {
     width: 49%;
-    margin: 2.5% 0;
+    padding: 4% 0;
     font-size: 1.8rem;
     height: 65%;
 }
@@ -175,6 +175,7 @@ h1,h2,h3,h4,h5 {
     width: 32%;
     margin: 1% 0;
     font-size: 1.5rem;
+    padding: 4% 0;
 
 }
 
@@ -183,6 +184,7 @@ h1,h2,h3,h4,h5 {
     width: 32%;
     margin: 1%;
     font-size: 1.5rem;
+    padding: 4% 0;
 }
 
 .Vision {
@@ -190,6 +192,7 @@ h1,h2,h3,h4,h5 {
     width: 32%;
     margin: 1%;
     font-size: 1.5rem;
+    padding: 4% 0;
   
 }
 
