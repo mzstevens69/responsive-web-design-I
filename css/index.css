@@ -94,13 +94,11 @@ h1,h2,h3,h4,h5 {
     display: flex;
    
 }
- .nav a {
-    
-    
+ .nav a {   
     text-decoration: none;
     color: gray;
     font-size: 1.6rem; 
-     
+     margin-left: 14%;
 }
 /* div around IOD and circle */
 .top-images {
@@ -120,7 +118,7 @@ h1,h2,h3,h4,h5 {
     padding-right: 5%;
     text-align: center;
     
-    font-size: 70px;
+    font-size: 9rem;
    
 
 }
@@ -499,11 +497,13 @@ li {
     body {
         height: 100%;
         max-width: 500px;
-    }
-
+        
+    }   
+/* logo on top */
     .great {
         font-size: 1.2rem;
-        justify-content;: center;
+        margin-right: 54%;
+        
     }
     .nav {
    
